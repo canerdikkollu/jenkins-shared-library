@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(tring APP_IMAGE_REGISTRY, String APP_IMAGE_REPOSITORY) {
+def call(String APP_IMAGE_REGISTRY, String APP_IMAGE_REPOSITORY) {
 
     dir("${WORKSPACE}") {
         sh "echo test"
